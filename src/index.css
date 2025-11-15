@@ -1,0 +1,5 @@
+@import "tailwindcss";
+
+@theme {
+  --color-base-color: #60e5ae;
+}
