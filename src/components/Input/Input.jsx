@@ -1,6 +1,6 @@
 import React from "react";
 
-const Input = ({ label, type, name, placeholder, changeFunc }) => {
+const Input = ({ label, type, name, placeholder, changeFunc = () => {} }) => {
   return (
     <div className="flex flex-col gap-2">
       <label htmlFor={label} className="font-semibold text-base capitalize">
