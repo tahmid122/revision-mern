@@ -21,7 +21,7 @@ const Login = () => {
     console.log(loginInfo);
   };
   return (
-    <div className="h-screen flex">
+    <div className="h-screen flex flex-col-reverse lg:flex-row">
       <div className="flex-1 bg-black flex items-center justify-center">
         <img src="../../../../src/assets/roadmapfull.png" alt="" />
       </div>
