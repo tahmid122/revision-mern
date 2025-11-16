@@ -18,9 +18,9 @@ const BaseLayer = ({ content }) => {
         />
       </div>
       {/* Lower body */}
-      <div className="h-[88vh] w-full">
+      <div className="h-[88vh] w-full ">
         {/* Content */}
-        <div className="w-[90%] h-[90%] mx-auto rounded-2xl border border-slate-500 p-5 shadow-xs -translate-y-10 bg-white flex items-center justify-center">
+        <div className="w-[90%] h-[90%]  overflow-y-auto mx-auto rounded-2xl p-5 shadow-md -translate-y-10 bg-white flex items-center justify-center">
           {content && content}
         </div>
       </div>
