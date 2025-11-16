@@ -4,6 +4,7 @@ import NotFound from "../pages/NotFound/NotFound";
 import Login from "../pages/Auth/Login/Login";
 import SignUp from "../pages/Auth/SignUp/SignUp";
 import Tasks from "../pages/Tasks/Tasks";
+import TaskDetails from "../pages/TaskDetails/TaskDetails";
 
 export const router = createBrowserRouter([
   {
@@ -21,6 +22,10 @@ export const router = createBrowserRouter([
       {
         path: "/tasks",
         Component: Tasks,
+      },
+      {
+        path: "/taskDetails/:taskId",
+        Component: TaskDetails,
       },
     ],
   },

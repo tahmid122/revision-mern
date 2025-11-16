@@ -7,12 +7,14 @@
 
 @import "tailwindcss";
 
-@import "tw-animate-css";
+/* @import "tw-animate-css"; */
 
 @custom-variant dark (&:is(.dark *));
 
 @theme {
   --color-base-color: #60e5ae;
+  --color-secondary-color: #ffab00;
+  --color-danger-color: #ff4c2426;
 }
 
 @theme inline {
