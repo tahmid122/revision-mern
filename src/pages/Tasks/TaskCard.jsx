@@ -1,6 +1,7 @@
 import React from "react";
 import { FaCalendar, FaTrash } from "react-icons/fa6";
 import { MdTask } from "react-icons/md";
+import { Link } from "react-router";
 
 const TaskCard = () => {
   return (
@@ -11,15 +12,17 @@ const TaskCard = () => {
           <MdTask />
         </div>
         <div className="flex-1">
-          <h2 className="text-xl font-bold">Art and Craft</h2>
+          <Link to={`/taskDetails/1`} className="text-xl font-bold">
+            Art and Craft
+          </Link>
           <p className="text-xs mt-1 text-slate-700 text-justify">
             Select the role that you want to candidates for and upload your job
             description.
           </p>
         </div>
-        <div>
+        <Link to={`taskDetails/1`}>
           <FaTrash className="text-red-600 cursor-pointer" />
-        </div>
+        </Link>
       </div>
       {/* bottom */}
       <div className="flex items-center justify-between">
